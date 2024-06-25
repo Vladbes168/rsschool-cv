@@ -1,4 +1,4 @@
-# [rsschool-cv](https://github.com/Vladbes168/rsschool-cv)
+# [rsschool-cv](https://Vladbes168.github.io/rsschool-cv/cv)
 
 
 
@@ -23,16 +23,18 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 - JavaScript (Basic)
 - Git
 
-## Code Example
+## Code Examples
 
-```function sum(a, b) {
+```
+function sum(a, b) {
   return a + b;
 }
 
 let result = sum(1, 2);
 alert( result ); 
+
 ```
-## [Experience]()
+## [Experience](https://Vladbes168.github.io/rsschool-cv/cv)
 
 ## Education
 - [CS50](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
