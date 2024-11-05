@@ -1,0 +1,429 @@
+@import url("reset.css");
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:&display=swap");
+
+
+
+
+body {
+    background-color: #191919;
+    color: #fff;
+}
+
+.name {
+    background-image: linear-gradient(to right, #13B0F5, #E70FAA);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.header {}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 230px 220px 177px;
+    align-items: center;
+}
+
+.header-logo {
+    cursor: pointer;
+}
+
+.header-nav {}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-list__item {
+    color: #A7A7A7;
+    font-family: DM Sans;
+}
+
+.nav-list__item:nth-child(1) {
+    margin-right: 67px;
+}
+
+.nav-list__item:nth-child(2) {
+    margin-right: 63px;
+}
+
+.nav-list__item:nth-child(3) {
+    margin-right: 54px;
+}
+
+.nav-list__item:nth-child(4) {
+    margin-right: 50px;
+}
+
+.header-link {
+    display: flex;
+    gap: 20px;
+}
+
+.header-link__item {}
+
+
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 348px;
+}
+
+.header-content__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.header-content__info {}
+
+.content-title {
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.header-content__profile {}
+
+.content__avatar img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #E70FAA, #00C0FD);
+    background-origin: border-box;
+    border: 5px solid transparent;
+}
+
+.main {}
+
+.main-container {}
+
+.main-info {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+.main-info__title {}
+
+.main-info__title:nth-child(1) {
+    padding-bottom: 49px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 48px;
+    color: #CCCCCC;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-transform: none;
+    letter-spacing: 54.166667%;
+    /* 26/48 */
+}
+
+.main-info__title:nth-child(2) {
+    font-size: 32px;
+    letter-spacing: 81.25%;
+    /* 26/32 */
+    color: #a7a7a7;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.main-icons {
+    text-align: center;
+    padding-bottom: 214px;
+}
+
+.main-icons__item:not(:first-child) {
+    margin-left: 103px;
+}
+
+
+
+.main-tabs__title {
+    text-align: center;
+}
+
+.main-tabs__title h2 {
+    color: #ccc;
+    padding-bottom: 50px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.main-tabs__title h3 {
+    color: #a7a7a7;
+    font-size: 32px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-transform: none;
+    padding-bottom: 100px;
+}
+
+/* Tabs */
+
+
+.main-tabs__container {
+    width: 1220px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 65px;
+    padding-bottom: 200px;
+}
+
+.main-tab {
+    max-width: 373px;
+    min-height: 567px;
+    box-sizing: border-box;
+    background-color: #363636;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, .2);
+}
+
+.tab__img {
+    max-width: 373px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.tab_content {
+    padding: 27px;
+}
+
+.tab_content h2 {
+    padding-bottom: 17px;
+    color: #ccc;
+    font-size: 28px;
+    font-style: normal;
+    margin-top: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: left;
+}
+
+.content-text__1 {
+    color: #ccc;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 0;
+    text-align: left;
+    /* Выровнять текст по левому краю */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    text-transform: none;
+    padding-bottom: 12px;
+}
+
+.content-text__2 {
+    white-space: nowrap;
+    text-align: center;
+    /* Выровнять текст по центру */
+    color: #ccc;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-transform: none;
+    padding-bottom: 21px;
+}
+
+.text__3 {
+    font-size: 14px;
+    font-weight: 300;
+    background-image: none;
+}
+
+
+.content-link__1 {
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.content-link__1:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.content-link__1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/tabs/link-icon.svg');
+    background-size: cover;
+}
+
+.content-link__2 {
+    position: relative;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.content-link__2:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.content-link__2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    left: -28px;
+    height: 20px;
+    top: 0;
+    background-image: url('../images/tabs/link-git.svg');
+}
+
+
+/* Footer */
+
+.footer {}
+
+.footer-container {
+    max-width: 1220px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 42px;
+}
+
+.footer-contact__logo {}
+
+.footer-logo__img {}
+
+.footer-contact__link {
+    margin-right: 150px;
+}
+
+.footer-link__phone {
+    color: #a7a7a7;
+    font-size: 18px;
+    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.footer-link__email {
+    position: relative;
+    color: #a7a7a7;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 0;
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-left: 63px;
+}
+
+.footer-contact__link::after {
+    content: "";
+    align-items: center;
+    position: absolute;
+    right: 360px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/GitHub.svg");
+    background-size: cover;
+}
+
+.footer-contact__link::before {
+    content: "";
+    align-items: center;
+    position: absolute;
+    right: 317px;
+    width: 31px;
+    height: 31px;
+    background-image: url("../images/Twitter.svg");
+    background-size: cover;
+}
+
+.footer-line {
+    display: inline-block;
+    background-color: #a7a7a7;
+    opacity: .30000001192092896;
+    max-width: 1211px;
+    max-height: 2px;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 60px;
+    
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.footer-container__logo {
+    width: 100px;
+}
+
+.footer-nav {}
+
+.nav-list {}
+
+.nav-list__item {}
+
+.footer-text {}
