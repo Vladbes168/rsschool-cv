@@ -416,6 +416,10 @@ body {
     padding-bottom: 60px;
 }
 
+.footer-container__logo {
+    width: 100px;
+}
+
 .footer-nav {}
 
 .nav-list {}
